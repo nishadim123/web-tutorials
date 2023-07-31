@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>html</title>
+<style>
+div
+{
+	width: 400px;
+	height: 510px;
+	background-color:#140B35;
+	margin-top: 90px;
+}
+body
+{
+	background-image:url("../../../New Folder/bg.png");
+}
+th
+{
+	color: white;
+	height: 40;
+}
+td
+{
+	color: yellow;
+	height:40;
+}
+input[type="submit"],input[type="reset"]
+{
+	height:30;
+	width: 70;
+	color:white;
+	border: 0;
+}
+</style>
+</head>
+
+<body>
+<center>
+<div >
+<table border="0" >
+<tr>
+<th colspan="2" align="center" bgcolor="orange">Sign Up</th>
+</tr>
+<tr>
+<td>First Name</td>
+<td><input type="text" name="fname" placeholder="Enter First Name"></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="lname" placeholder="Enter Last Name"></td>
+</tr>
+<tr>
+<td>Date of Birth</td>
+<td>
+<select name="Date">
+	<option value="D">Date</option>
+	<option value="1">01</option>
+	<option value="2">02</option>
+	<option value="3">03</option>
+	<option value="4">04</option>
+	<option value="5">05</option>
+</select>
+<select name="Month">
+	<option value="M">Month</option>
+	<option value="1">January</option>
+	<option value="2">February</option>
+	<option value="3">March</option>
+	<option value="4">April</option>
+	<option value="5">May</option>
+</select>
+	<select name="Year">
+	<option value="Y">Year</option>
+	<option value="1">2001</option>
+	<option value="2">2002</option>
+	<option value="3">2003</option>
+	<option value="4">2004</option>
+	<option value="5">2005</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="M">Male
+<input type="radio" name="gender" value="F">Female</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>
+<select name="Country">
+             <option value="country">country</option>
+             <option value="USA">USA</option>
+	<option value="UK">UK</option>
+	<option value="UAE">UAE</option>
+	<option value="India">India</option>
+	<option value="Canada">Canada</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td><input type="email" name="email" placeholder="Enter E-mail"></td>
+</tr>
+<tr>
+<td>Phone</td>
+<td><input type="text" name="phone" placeholder="Enter Phone"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pw" ></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="password" name="confirmpw" ></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="checkbox" name="agree">I Agree to the Terms of Use</td>
+</tr>
+<tr bgcolor="orange">
+<td colspan="2" bgcolor="orange">
+<input type="submit" name="submit" value="Submit" style="background-color: green">
+<input type="reset" name="reset" value="Cancel" style="background-color:red">
+</td>
+</tr>
+</table>
+</div>
+</center>
+</body>
+</html>

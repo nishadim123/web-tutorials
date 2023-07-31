@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>script5</title>
+<script language="javascript" type="text/javascript">
+	
+var marks,avg,sum=0;
+
+        for(var i=0;i<5;i++)
+        {
+            marks=Number(prompt("Enter a Number"));
+            sum=sum+marks;
+            avg=sum/5;
+        }
+
+        document.write("your marks is "+sum+"<br>");
+        document.write("your average is "+avg+"<br>");
+
+        function sd()
+        {
+            if(avg>30)
+        {
+            alert("Congrats you have Passed!!");
+        }
+        else
+        {
+            alert("Better luck next time!!");
+        }
+        }
+        
+</script>
+</head>
+<body>
+<button onclick="sd()">Grade</button>
+</body>
+
